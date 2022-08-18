@@ -1,0 +1,60 @@
+
+body{
+    background-color: black;
+    border: none;
+    margin: 0px;
+}
+
+header {
+    width: auto;
+
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+
+}
+
+header #btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn{
+    background-color:red;
+    margin: 20px;
+    width: 65px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#first-section{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) ) , url(image/homepage-poster.jpg);
+    height: 400px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+#first-section p {
+    font-size: 50px;
+    color:white;
+    width: 500px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#first-section button{
+    height: 55px;
+    width: 170px;
+    margin-left: 45% ;
+}
+#first-section button a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#first-section button:hover{
+    color: blue;
+}

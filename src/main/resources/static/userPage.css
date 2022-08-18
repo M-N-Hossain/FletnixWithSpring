@@ -1,0 +1,94 @@
+#navber{
+    margin-right: 40px;
+    margin-top: 25px;
+    width: 400px;
+
+
+}
+#navber a{
+    color: rgb(183, 126, 126);
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+#navber a:hover{
+    color: red;
+}
+
+#user-details p{
+    color: red;
+}
+#user-details #name{
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+#user-details #extention{
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 580px;
+    margin-bottom: 4px;
+}
+
+
+.movie-section{
+    position: relative;
+    width: 70%;
+    margin-top: 35px;
+    margin-left: 15%;
+    margin-right: 100px;
+}
+.movies{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 10px;
+    position: relative;
+}
+
+
+.movie{
+    border: 1px solid red;
+    width: 200px;
+    height: 220px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px;
+    transition: transform 1s ease-in-out ;
+    transform-style: preserve-3d;
+
+
+}
+
+.movie:hover{
+    transform: rotateY(180deg);
+}
+
+.front{
+    width: 200px;
+    height: 220px;
+    margin: 0%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.back{
+    background: linear-gradient(to bottom, rgb(144, 82, 82), rgb(107, 103, 103));
+    width: 200px;
+    height: 220px;
+    margin: 0%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg)
+
+}
+
+.movie img{
+    height: 200px;
+
+}
+
+
